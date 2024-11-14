@@ -1,7 +1,5 @@
 name: 02 - Eventos
-on:
-  schedule:
-      - cron: "42 * * * *"
+on:  workflow_dispatch
 jobs:
   echo:
     runs-on: ubuntu-latest
